@@ -8,22 +8,22 @@ const navItems = [
 
 const workflowSteps = [
   {
-    title: '1. Capturar el dominio',
+    title: 'Capturar el dominio',
     description:
       'Se identifican conceptos, relaciones y restricciones del negocio para construir un metamodelo compartido.',
   },
   {
-    title: '2. Modelar con abstracciones',
+    title: 'Modelar con abstracciones',
     description:
       'Los equipos crean modelos conformes al metamodelo, evitando detalles accidentales de plataformas concretas.',
   },
   {
-    title: '3. Validar reglas',
+    title: 'Validar reglas',
     description:
       'Restricciones OCL o validadores equivalentes comprueban consistencia antes de generar artefactos.',
   },
   {
-    title: '4. Transformar y generar',
+    title: 'Transformar y generar',
     description:
       'Transformaciones modelo a modelo y modelo a texto producen código, configuración y documentación trazable.',
   },
@@ -124,6 +124,7 @@ const benefits = [
 function App() {
   return (
     <>
+      <a className="skip-link" href="#contenido">Saltar al contenido principal</a>
       <header className="site-header">
         <a className="brand" href="#top" aria-label="Volver al inicio">
           MDE Lab
@@ -137,7 +138,8 @@ function App() {
         </nav>
       </header>
 
-      <main id="top" className="landing-shell">
+      <main id="contenido" className="landing-shell" tabIndex="-1">
+        <span id="top" aria-hidden="true"></span>
         <section className="hero" aria-labelledby="hero-title">
           <p className="eyebrow">Model Driven Engineering</p>
           <h1 id="hero-title">Diseña software desde modelos ejecutables</h1>
