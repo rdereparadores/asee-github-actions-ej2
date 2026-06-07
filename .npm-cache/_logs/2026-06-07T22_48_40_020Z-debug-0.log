@@ -1,0 +1,328 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.8
+2 info using node@v22.22.3
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/.npmrc
+5 silly config load:file:/root/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm ci
+8 verbose argv "ci" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:/workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/.npm-cache/_logs/2026-06-07T22_48_40_020Z-
+10 verbose logfile /workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/.npm-cache/_logs/2026-06-07T22_48_40_020Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2105278464 maxSize:526319616 maxEntrySize:263159808
+13 silly idealTree buildDeps
+14 silly reify moves {}
+15 silly audit bulk request {
+15 silly audit   '@emnapi/core': [ '1.10.0' ],
+15 silly audit   '@emnapi/runtime': [ '1.10.0' ],
+15 silly audit   '@emnapi/wasi-threads': [ '1.2.1' ],
+15 silly audit   '@napi-rs/wasm-runtime': [ '1.1.4' ],
+15 silly audit   '@oxc-project/types': [ '0.133.0' ],
+15 silly audit   '@rolldown/binding-android-arm64': [ '1.0.3' ],
+15 silly audit   '@rolldown/binding-darwin-arm64': [ '1.0.3' ],
+15 silly audit   '@rolldown/binding-darwin-x64': [ '1.0.3' ],
+15 silly audit   '@rolldown/binding-freebsd-x64': [ '1.0.3' ],
+15 silly audit   '@rolldown/binding-linux-arm-gnueabihf': [ '1.0.3' ],
+15 silly audit   '@rolldown/binding-linux-arm64-gnu': [ '1.0.3' ],
+15 silly audit   '@rolldown/binding-linux-arm64-musl': [ '1.0.3' ],
+15 silly audit   '@rolldown/binding-linux-ppc64-gnu': [ '1.0.3' ],
+15 silly audit   '@rolldown/binding-linux-s390x-gnu': [ '1.0.3' ],
+15 silly audit   '@rolldown/binding-linux-x64-gnu': [ '1.0.3' ],
+15 silly audit   '@rolldown/binding-linux-x64-musl': [ '1.0.3' ],
+15 silly audit   '@rolldown/binding-openharmony-arm64': [ '1.0.3' ],
+15 silly audit   '@rolldown/binding-wasm32-wasi': [ '1.0.3' ],
+15 silly audit   '@rolldown/binding-win32-arm64-msvc': [ '1.0.3' ],
+15 silly audit   '@rolldown/binding-win32-x64-msvc': [ '1.0.3' ],
+15 silly audit   '@rolldown/pluginutils': [ '1.0.1' ],
+15 silly audit   '@tybys/wasm-util': [ '0.10.2' ],
+15 silly audit   '@vitejs/plugin-react': [ '6.0.2' ],
+15 silly audit   'detect-libc': [ '2.1.2' ],
+15 silly audit   fdir: [ '6.5.0' ],
+15 silly audit   fsevents: [ '2.3.3' ],
+15 silly audit   lightningcss: [ '1.32.0' ],
+15 silly audit   'lightningcss-android-arm64': [ '1.32.0' ],
+15 silly audit   'lightningcss-darwin-arm64': [ '1.32.0' ],
+15 silly audit   'lightningcss-darwin-x64': [ '1.32.0' ],
+15 silly audit   'lightningcss-freebsd-x64': [ '1.32.0' ],
+15 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.32.0' ],
+15 silly audit   'lightningcss-linux-arm64-gnu': [ '1.32.0' ],
+15 silly audit   'lightningcss-linux-arm64-musl': [ '1.32.0' ],
+15 silly audit   'lightningcss-linux-x64-gnu': [ '1.32.0' ],
+15 silly audit   'lightningcss-linux-x64-musl': [ '1.32.0' ],
+15 silly audit   'lightningcss-win32-arm64-msvc': [ '1.32.0' ],
+15 silly audit   'lightningcss-win32-x64-msvc': [ '1.32.0' ],
+15 silly audit   nanoid: [ '3.3.12' ],
+15 silly audit   picocolors: [ '1.1.1' ],
+15 silly audit   picomatch: [ '4.0.4' ],
+15 silly audit   postcss: [ '8.5.15' ],
+15 silly audit   react: [ '19.2.7' ],
+15 silly audit   'react-dom': [ '19.2.7' ],
+15 silly audit   rolldown: [ '1.0.3' ],
+15 silly audit   scheduler: [ '0.27.0' ],
+15 silly audit   'source-map-js': [ '1.2.1' ],
+15 silly audit   tinyglobby: [ '0.2.17' ],
+15 silly audit   tslib: [ '2.8.1' ],
+15 silly audit   vite: [ '8.0.16' ]
+15 silly audit }
+16 verbose reify failed optional dependency /workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/lightningcss-win32-x64-msvc
+17 silly reify mark deleted [
+17 silly reify   '/workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/lightningcss-win32-x64-msvc'
+17 silly reify ]
+18 verbose reify failed optional dependency /workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/lightningcss-win32-arm64-msvc
+19 silly reify mark deleted [
+19 silly reify   '/workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/lightningcss-win32-arm64-msvc'
+19 silly reify ]
+20 verbose reify failed optional dependency /workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/lightningcss-linux-x64-musl
+21 silly reify mark deleted [
+21 silly reify   '/workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/lightningcss-linux-x64-musl'
+21 silly reify ]
+22 verbose reify failed optional dependency /workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/lightningcss-linux-x64-gnu
+23 silly reify mark deleted [
+23 silly reify   '/workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/lightningcss-linux-x64-gnu'
+23 silly reify ]
+24 verbose reify failed optional dependency /workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/lightningcss-linux-arm-gnueabihf
+25 silly reify mark deleted [
+25 silly reify   '/workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/lightningcss-linux-arm-gnueabihf'
+25 silly reify ]
+26 verbose reify failed optional dependency /workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/lightningcss-freebsd-x64
+27 silly reify mark deleted [
+27 silly reify   '/workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/lightningcss-freebsd-x64'
+27 silly reify ]
+28 verbose reify failed optional dependency /workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/lightningcss-darwin-x64
+29 silly reify mark deleted [
+29 silly reify   '/workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/lightningcss-darwin-x64'
+29 silly reify ]
+30 verbose reify failed optional dependency /workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/lightningcss-darwin-arm64
+31 silly reify mark deleted [
+31 silly reify   '/workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/lightningcss-darwin-arm64'
+31 silly reify ]
+32 verbose reify failed optional dependency /workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/lightningcss-android-arm64
+33 silly reify mark deleted [
+33 silly reify   '/workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/lightningcss-android-arm64'
+33 silly reify ]
+34 verbose reify failed optional dependency /workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/fsevents
+35 silly reify mark deleted [
+35 silly reify   '/workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/fsevents'
+35 silly reify ]
+36 verbose reify failed optional dependency /workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/@rolldown/binding-win32-x64-msvc
+37 silly reify mark deleted [
+37 silly reify   '/workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/@rolldown/binding-win32-x64-msvc'
+37 silly reify ]
+38 verbose reify failed optional dependency /workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/@rolldown/binding-win32-arm64-msvc
+39 silly reify mark deleted [
+39 silly reify   '/workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/@rolldown/binding-win32-arm64-msvc'
+39 silly reify ]
+40 verbose reify failed optional dependency /workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/@rolldown/binding-wasm32-wasi
+41 silly reify mark deleted [
+41 silly reify   '/workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/@rolldown/binding-wasm32-wasi'
+41 silly reify ]
+42 verbose reify failed optional dependency /workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/@emnapi/core
+43 silly reify mark deleted [
+43 silly reify   '/workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/@emnapi/core'
+43 silly reify ]
+44 verbose reify failed optional dependency /workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/@emnapi/runtime
+45 silly reify mark deleted [
+45 silly reify   '/workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/@emnapi/runtime'
+45 silly reify ]
+46 verbose reify failed optional dependency /workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/@napi-rs/wasm-runtime
+47 silly reify mark deleted [
+47 silly reify   '/workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/@napi-rs/wasm-runtime'
+47 silly reify ]
+48 verbose reify failed optional dependency /workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/@emnapi/wasi-threads
+49 silly reify mark deleted [
+49 silly reify   '/workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/@emnapi/wasi-threads'
+49 silly reify ]
+50 verbose reify failed optional dependency /workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/tslib
+51 silly reify mark deleted [
+51 silly reify   '/workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/tslib'
+51 silly reify ]
+52 verbose reify failed optional dependency /workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/@tybys/wasm-util
+53 silly reify mark deleted [
+53 silly reify   '/workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/@tybys/wasm-util'
+53 silly reify ]
+54 verbose reify failed optional dependency /workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/@rolldown/binding-openharmony-arm64
+55 silly reify mark deleted [
+55 silly reify   '/workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/@rolldown/binding-openharmony-arm64'
+55 silly reify ]
+56 verbose reify failed optional dependency /workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/@rolldown/binding-linux-x64-musl
+57 silly reify mark deleted [
+57 silly reify   '/workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/@rolldown/binding-linux-x64-musl'
+57 silly reify ]
+58 verbose reify failed optional dependency /workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/@rolldown/binding-linux-x64-gnu
+59 silly reify mark deleted [
+59 silly reify   '/workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/@rolldown/binding-linux-x64-gnu'
+59 silly reify ]
+60 verbose reify failed optional dependency /workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/@rolldown/binding-linux-s390x-gnu
+61 silly reify mark deleted [
+61 silly reify   '/workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/@rolldown/binding-linux-s390x-gnu'
+61 silly reify ]
+62 verbose reify failed optional dependency /workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/@rolldown/binding-linux-ppc64-gnu
+63 silly reify mark deleted [
+63 silly reify   '/workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/@rolldown/binding-linux-ppc64-gnu'
+63 silly reify ]
+64 verbose reify failed optional dependency /workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/@rolldown/binding-linux-arm-gnueabihf
+65 silly reify mark deleted [
+65 silly reify   '/workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/@rolldown/binding-linux-arm-gnueabihf'
+65 silly reify ]
+66 verbose reify failed optional dependency /workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/@rolldown/binding-freebsd-x64
+67 silly reify mark deleted [
+67 silly reify   '/workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/@rolldown/binding-freebsd-x64'
+67 silly reify ]
+68 verbose reify failed optional dependency /workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/@rolldown/binding-darwin-x64
+69 silly reify mark deleted [
+69 silly reify   '/workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/@rolldown/binding-darwin-x64'
+69 silly reify ]
+70 verbose reify failed optional dependency /workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/@rolldown/binding-darwin-arm64
+71 silly reify mark deleted [
+71 silly reify   '/workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/@rolldown/binding-darwin-arm64'
+71 silly reify ]
+72 verbose reify failed optional dependency /workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/@rolldown/binding-android-arm64
+73 silly reify mark deleted [
+73 silly reify   '/workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5/node_modules/@rolldown/binding-android-arm64'
+73 silly reify ]
+74 http cache tslib@https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz 0ms (cache hit)
+75 http cache tinyglobby@https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.17.tgz 0ms (cache hit)
+76 http cache source-map-js@https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz 0ms (cache hit)
+77 http cache react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.2.7.tgz 0ms (cache hit)
+78 http cache react@https://registry.npmjs.org/react/-/react-19.2.7.tgz 0ms (cache hit)
+79 http cache picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.4.tgz 0ms (cache hit)
+80 http cache picocolors@https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz 0ms (cache hit)
+81 http cache postcss@https://registry.npmjs.org/postcss/-/postcss-8.5.15.tgz 0ms (cache hit)
+82 http cache nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.12.tgz 0ms (cache hit)
+83 http cache lightningcss-linux-arm64-musl@https://registry.npmjs.org/lightningcss-linux-arm64-musl/-/lightningcss-linux-arm64-musl-1.32.0.tgz 0ms (cache hit)
+84 http cache lightningcss-linux-arm64-gnu@https://registry.npmjs.org/lightningcss-linux-arm64-gnu/-/lightningcss-linux-arm64-gnu-1.32.0.tgz 0ms (cache hit)
+85 http cache lightningcss@https://registry.npmjs.org/lightningcss/-/lightningcss-1.32.0.tgz 0ms (cache hit)
+86 http cache detect-libc@https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz 0ms (cache hit)
+87 http cache fdir@https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz 0ms (cache hit)
+88 http cache scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz 0ms (cache hit)
+89 http cache @vitejs/plugin-react@https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-6.0.2.tgz 0ms (cache hit)
+90 http cache @rolldown/pluginutils@https://registry.npmjs.org/@rolldown/pluginutils/-/pluginutils-1.0.1.tgz 0ms (cache hit)
+91 http cache vite@https://registry.npmjs.org/vite/-/vite-8.0.16.tgz 0ms (cache hit)
+92 http cache @rolldown/binding-linux-arm64-musl@https://registry.npmjs.org/@rolldown/binding-linux-arm64-musl/-/binding-linux-arm64-musl-1.0.3.tgz 0ms (cache hit)
+93 http cache @tybys/wasm-util@https://registry.npmjs.org/@tybys/wasm-util/-/wasm-util-0.10.2.tgz 0ms (cache hit)
+94 http cache @napi-rs/wasm-runtime@https://registry.npmjs.org/@napi-rs/wasm-runtime/-/wasm-runtime-1.1.4.tgz 0ms (cache hit)
+95 http cache @rolldown/binding-linux-arm64-gnu@https://registry.npmjs.org/@rolldown/binding-linux-arm64-gnu/-/binding-linux-arm64-gnu-1.0.3.tgz 0ms (cache hit)
+96 http cache @oxc-project/types@https://registry.npmjs.org/@oxc-project/types/-/types-0.133.0.tgz 0ms (cache hit)
+97 http cache @emnapi/wasi-threads@https://registry.npmjs.org/@emnapi/wasi-threads/-/wasi-threads-1.2.1.tgz 0ms (cache hit)
+98 silly tarball no local data for tslib@https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz. Extracting by manifest.
+99 silly tarball no local data for tinyglobby@https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.17.tgz. Extracting by manifest.
+100 silly tarball no local data for source-map-js@https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz. Extracting by manifest.
+101 silly tarball no local data for react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.2.7.tgz. Extracting by manifest.
+102 silly tarball no local data for react@https://registry.npmjs.org/react/-/react-19.2.7.tgz. Extracting by manifest.
+103 silly tarball no local data for picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.4.tgz. Extracting by manifest.
+104 silly tarball no local data for picocolors@https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz. Extracting by manifest.
+105 silly tarball no local data for postcss@https://registry.npmjs.org/postcss/-/postcss-8.5.15.tgz. Extracting by manifest.
+106 silly tarball no local data for nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.12.tgz. Extracting by manifest.
+107 silly tarball no local data for lightningcss-linux-arm64-musl@https://registry.npmjs.org/lightningcss-linux-arm64-musl/-/lightningcss-linux-arm64-musl-1.32.0.tgz. Extracting by manifest.
+108 http cache rolldown@https://registry.npmjs.org/rolldown/-/rolldown-1.0.3.tgz 0ms (cache hit)
+109 silly tarball no local data for lightningcss-linux-arm64-gnu@https://registry.npmjs.org/lightningcss-linux-arm64-gnu/-/lightningcss-linux-arm64-gnu-1.32.0.tgz. Extracting by manifest.
+110 silly tarball no local data for lightningcss@https://registry.npmjs.org/lightningcss/-/lightningcss-1.32.0.tgz. Extracting by manifest.
+111 silly tarball no local data for detect-libc@https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz. Extracting by manifest.
+112 silly tarball no local data for fdir@https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz. Extracting by manifest.
+113 silly tarball no local data for scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz. Extracting by manifest.
+114 silly tarball no local data for @vitejs/plugin-react@https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-6.0.2.tgz. Extracting by manifest.
+115 silly tarball no local data for @rolldown/pluginutils@https://registry.npmjs.org/@rolldown/pluginutils/-/pluginutils-1.0.1.tgz. Extracting by manifest.
+116 silly tarball no local data for vite@https://registry.npmjs.org/vite/-/vite-8.0.16.tgz. Extracting by manifest.
+117 silly tarball no local data for @rolldown/binding-linux-arm64-musl@https://registry.npmjs.org/@rolldown/binding-linux-arm64-musl/-/binding-linux-arm64-musl-1.0.3.tgz. Extracting by manifest.
+118 silly tarball no local data for @tybys/wasm-util@https://registry.npmjs.org/@tybys/wasm-util/-/wasm-util-0.10.2.tgz. Extracting by manifest.
+119 silly tarball no local data for @napi-rs/wasm-runtime@https://registry.npmjs.org/@napi-rs/wasm-runtime/-/wasm-runtime-1.1.4.tgz. Extracting by manifest.
+120 http cache @emnapi/runtime@https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.10.0.tgz 0ms (cache hit)
+121 http cache @emnapi/core@https://registry.npmjs.org/@emnapi/core/-/core-1.10.0.tgz 0ms (cache hit)
+122 silly tarball no local data for @rolldown/binding-linux-arm64-gnu@https://registry.npmjs.org/@rolldown/binding-linux-arm64-gnu/-/binding-linux-arm64-gnu-1.0.3.tgz. Extracting by manifest.
+123 silly tarball no local data for @oxc-project/types@https://registry.npmjs.org/@oxc-project/types/-/types-0.133.0.tgz. Extracting by manifest.
+124 silly tarball no local data for @emnapi/wasi-threads@https://registry.npmjs.org/@emnapi/wasi-threads/-/wasi-threads-1.2.1.tgz. Extracting by manifest.
+125 silly tarball no local data for rolldown@https://registry.npmjs.org/rolldown/-/rolldown-1.0.3.tgz. Extracting by manifest.
+126 silly tarball no local data for @emnapi/runtime@https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.10.0.tgz. Extracting by manifest.
+127 silly tarball no local data for @emnapi/core@https://registry.npmjs.org/@emnapi/core/-/core-1.10.0.tgz. Extracting by manifest.
+128 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 342ms
+129 silly audit report {}
+130 http fetch GET 200 https://registry.npmjs.org/react/-/react-19.2.7.tgz 345ms (cache miss)
+131 http fetch GET 200 https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz 346ms (cache miss)
+132 http fetch GET 200 https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.17.tgz 354ms (cache miss)
+133 http fetch GET 200 https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz 375ms (cache miss)
+134 http fetch GET 200 https://registry.npmjs.org/picomatch/-/picomatch-4.0.4.tgz 377ms (cache miss)
+135 http fetch GET 200 https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz 380ms (cache miss)
+136 http fetch GET 200 https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz 383ms (cache miss)
+137 http fetch GET 200 https://registry.npmjs.org/@rolldown/pluginutils/-/pluginutils-1.0.1.tgz 416ms (cache miss)
+138 http fetch GET 200 https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-6.0.2.tgz 425ms (cache miss)
+139 http fetch GET 200 https://registry.npmjs.org/nanoid/-/nanoid-3.3.12.tgz 440ms (cache miss)
+140 http fetch GET 200 https://registry.npmjs.org/lightningcss/-/lightningcss-1.32.0.tgz 440ms (cache miss)
+141 http fetch GET 200 https://registry.npmjs.org/npm 631ms
+142 http fetch GET 200 https://registry.npmjs.org/postcss/-/postcss-8.5.15.tgz 653ms (cache miss)
+143 http fetch GET 200 https://registry.npmjs.org/@oxc-project/types/-/types-0.133.0.tgz 658ms (cache miss)
+144 http fetch GET 200 https://registry.npmjs.org/@tybys/wasm-util/-/wasm-util-0.10.2.tgz 660ms (cache miss)
+145 http fetch GET 200 https://registry.npmjs.org/rolldown/-/rolldown-1.0.3.tgz 659ms (cache miss)
+146 http fetch GET 200 https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz 719ms (cache miss)
+147 http fetch GET 200 https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.10.0.tgz 826ms (cache miss)
+148 http fetch GET 200 https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz 871ms (cache miss)
+149 http fetch GET 200 https://registry.npmjs.org/@emnapi/wasi-threads/-/wasi-threads-1.2.1.tgz 872ms (cache miss)
+150 http fetch GET 200 https://registry.npmjs.org/@emnapi/core/-/core-1.10.0.tgz 964ms (cache miss)
+151 http fetch GET 200 https://registry.npmjs.org/@napi-rs/wasm-runtime/-/wasm-runtime-1.1.4.tgz 982ms (cache miss)
+152 http fetch GET 200 https://registry.npmjs.org/vite/-/vite-8.0.16.tgz 1107ms (cache miss)
+153 http fetch GET 200 https://registry.npmjs.org/react-dom/-/react-dom-19.2.7.tgz 1573ms (cache miss)
+154 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-arm64-gnu/-/lightningcss-linux-arm64-gnu-1.32.0.tgz 3068ms (cache miss)
+155 http fetch GET 200 https://registry.npmjs.org/@rolldown/binding-linux-arm64-musl/-/binding-linux-arm64-musl-1.0.3.tgz 3097ms (cache miss)
+156 http fetch GET 200 https://registry.npmjs.org/@rolldown/binding-linux-arm64-gnu/-/binding-linux-arm64-gnu-1.0.3.tgz 3662ms (cache miss)
+157 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-arm64-musl/-/lightningcss-linux-arm64-musl-1.32.0.tgz 5045ms (cache miss)
+158 silly ADD node_modules/vite
+159 silly ADD
+160 silly ADD node_modules/tinyglobby
+161 silly ADD node_modules/source-map-js
+162 silly ADD node_modules/scheduler
+163 silly ADD node_modules/rolldown
+164 silly ADD node_modules/react-dom
+165 silly ADD node_modules/react
+166 silly ADD node_modules/postcss
+167 silly ADD node_modules/picomatch
+168 silly ADD node_modules/picocolors
+169 silly ADD node_modules/nanoid
+170 silly ADD
+171 silly ADD
+172 silly ADD
+173 silly ADD
+174 silly ADD node_modules/lightningcss-linux-arm64-musl
+175 silly ADD node_modules/lightningcss-linux-arm64-gnu
+176 silly ADD
+177 silly ADD
+178 silly ADD
+179 silly ADD
+180 silly ADD
+181 silly ADD node_modules/lightningcss
+182 silly ADD
+183 silly ADD node_modules/fdir
+184 silly ADD node_modules/detect-libc
+185 silly ADD node_modules/@vitejs/plugin-react
+186 silly ADD
+187 silly ADD node_modules/@rolldown/pluginutils
+188 silly ADD
+189 silly ADD
+190 silly ADD
+191 silly ADD
+192 silly ADD
+193 silly ADD
+194 silly ADD
+195 silly ADD
+196 silly ADD node_modules/@rolldown/binding-linux-arm64-musl
+197 silly ADD node_modules/@rolldown/binding-linux-arm64-gnu
+198 silly ADD
+199 silly ADD
+200 silly ADD
+201 silly ADD
+202 silly ADD
+203 silly ADD node_modules/@oxc-project/types
+204 silly ADD
+205 silly ADD
+206 silly ADD
+207 silly ADD
+208 verbose cwd /workspace/worktrees/d600aae6-0244-4af2-8f10-fc3a30c908f5
+209 verbose os Linux 6.12.76-linuxkit
+210 verbose node v22.22.3
+211 verbose npm  v10.9.8
+212 notice
+212 notice New major version of npm available! 10.9.8 -> 11.16.0
+212 notice Changelog: https://github.com/npm/cli/releases/tag/v11.16.0
+212 notice To update run: npm install -g npm@11.16.0
+212 notice  { force: true, [Symbol(proc-log.meta)]: true }
+213 verbose exit 0
+214 info ok
