@@ -4,6 +4,7 @@ const navItems = [
   { href: '#herramientas', label: 'Herramientas' },
   { href: '#demos', label: 'Demos' },
   { href: '#beneficios', label: 'Beneficios' },
+  { href: '#comparativa', label: 'Comparativa' },
 ]
 
 const workflowSteps = [
@@ -121,6 +122,78 @@ const benefits = [
   },
 ]
 
+
+const comparisonApproaches = [
+  {
+    name: 'Model Driven Engineering',
+    tag: 'Modelos como artefacto central',
+    summary:
+      'Parte de metamodelos y modelos validados para generar código, documentación o configuraciones con trazabilidad.',
+    strengths: [
+      'Reduce trabajo repetitivo mediante generación automatizada.',
+      'Facilita alinear lenguaje de negocio, arquitectura e implementación.',
+      'Detecta inconsistencias temprano con reglas sobre modelos.',
+    ],
+    limitations: [
+      'Requiere inversión inicial en metamodelos, transformaciones y gobierno.',
+      'Puede resultar excesivo para productos pequeños o de vida muy corta.',
+    ],
+    bestFor:
+      'Dominios estables o regulados donde la trazabilidad, variabilidad y generación consistente aportan valor sostenido.',
+  },
+  {
+    name: 'Code-first / tradicional',
+    tag: 'El código guía el diseño',
+    summary:
+      'Prioriza implementar directamente en el lenguaje y framework elegidos, usando documentación y diagramas como apoyo.',
+    strengths: [
+      'Permite avanzar rápido cuando el equipo domina la tecnología.',
+      'Aprovecha herramientas maduras de desarrollo, pruebas y despliegue.',
+      'Reduce la curva de entrada si no se necesitan abstracciones específicas.',
+    ],
+    limitations: [
+      'La intención de dominio puede quedar dispersa entre código, tickets y documentación.',
+      'Las convenciones repetitivas dependen más de revisiones manuales.',
+    ],
+    bestFor:
+      'Aplicaciones con alcance acotado, requisitos técnicos claros y poca necesidad de generación o trazabilidad formal.',
+  },
+  {
+    name: 'Agile / iterativo',
+    tag: 'Aprendizaje por incrementos',
+    summary:
+      'Organiza el trabajo en ciclos cortos para validar hipótesis, entregar valor frecuente y adaptar prioridades.',
+    strengths: [
+      'Mejora la respuesta ante cambios de negocio o mercado.',
+      'Favorece feedback continuo de usuarios y stakeholders.',
+      'Hace visible el progreso mediante entregas pequeñas.',
+    ],
+    limitations: [
+      'Sin disciplina técnica puede acumular deuda y decisiones inconsistentes.',
+      'No define por sí mismo cómo capturar modelos, reglas o trazabilidad.',
+    ],
+    bestFor:
+      'Productos con incertidumbre funcional donde conviene aprender rápido y ajustar el rumbo con entregas frecuentes.',
+  },
+  {
+    name: 'Low-code / no-code',
+    tag: 'Construcción visual acelerada',
+    summary:
+      'Usa plataformas visuales y componentes predefinidos para crear aplicaciones con menos programación manual.',
+    strengths: [
+      'Acelera prototipos, formularios y flujos internos.',
+      'Permite participar a perfiles no desarrolladores en soluciones simples.',
+      'Incluye conectores y despliegues gestionados en muchas plataformas.',
+    ],
+    limitations: [
+      'Puede limitar personalización, portabilidad y control arquitectónico.',
+      'La evolución avanzada depende de las capacidades y costes de la plataforma.',
+    ],
+    bestFor:
+      'Automatización departamental, prototipos y procesos internos con complejidad moderada y tiempos ajustados.',
+  },
+]
+
 function App() {
   return (
     <>
@@ -218,6 +291,43 @@ function App() {
               <article className="card" key={benefit.title}>
                 <h3>{benefit.title}</h3>
                 <p>{benefit.description}</p>
+              </article>
+            ))}
+          </div>
+        </section>
+
+
+        <section id="comparativa" className="content-section" aria-labelledby="comparison-title">
+          <p className="eyebrow">Comparativa</p>
+          <h2 id="comparison-title">MDE frente a otros enfoques de desarrollo</h2>
+          <p className="section-intro">
+            No existe un enfoque universal: la elección depende de la estabilidad del dominio, la necesidad de trazabilidad, el ritmo de aprendizaje y el nivel de control técnico. Esta comparación resume cuándo MDE aporta más valor y cuándo otros enfoques pueden ser suficientes.
+          </p>
+          <div className="comparison-grid" aria-label="Comparativa de enfoques de desarrollo">
+            {comparisonApproaches.map((approach) => (
+              <article className="comparison-card" key={approach.name}>
+                <span className="comparison-tag">{approach.tag}</span>
+                <h3>{approach.name}</h3>
+                <p>{approach.summary}</p>
+
+                <div className="comparison-block">
+                  <h4>Ventajas</h4>
+                  <ul className="check-list compact-list">
+                    {approach.strengths.map((strength) => <li key={strength}>{strength}</li>)}
+                  </ul>
+                </div>
+
+                <div className="comparison-block">
+                  <h4>Limitaciones</h4>
+                  <ul className="risk-list compact-list">
+                    {approach.limitations.map((limitation) => <li key={limitation}>{limitation}</li>)}
+                  </ul>
+                </div>
+
+                <div className="comparison-best">
+                  <h4>Uso recomendado</h4>
+                  <p>{approach.bestFor}</p>
+                </div>
               </article>
             ))}
           </div>
